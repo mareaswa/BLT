@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: { git@github.com:mareaswa/BLT.git }
+  remotes: { haanji@svn-4140.devcloud.hosting.acquia.com:haanji.git }
 drush:
   aliases:
     remote: '${project.machine_name}.test'
